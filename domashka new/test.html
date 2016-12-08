@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Тест</title>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<header>
+	<div class="header">
+		<div class="logo"><a href="index.html"><img src="webLogo.png" alt="Изображение" height="100"/></a></div>
+		<div class="zagolovok">Основы Web-технологий</div>
+		<div class="clear"></div>
+		<nav>
+		<ul class="navi">
+			<li><a href="index.html">Главная</a></li>
+			<li class="list"><a href="technologies.html">Web-технологии</a>
+			<ul class="submenu">
+				<li><a href="html.html">HTML5</a></li>
+				<li><a href="css.html">CSS3</a></li>
+				<li><a href="javascript.html">JavaScript</a></li>
+			</ul>
+			</li>
+		<li><a href="calculator.html">Калькулятор</a></li>
+		<li><a href="test.html">Тест</a></li>
+		</ul>
+	</nav>
+	</div>
+	</header>
+	<div class="main">
+	<form id="testing" name="testing">
+		<p>
+			Какой тег предназначен для создания ссылок:<br />
+		<input type="radio" name="sozdaniessilok" value="a"/>&lt;a&gt;<br />
+		<input type="radio" name="sozdaniessilok" value="a/"/>&lt;a&nbsp;&frasl;&gt;<br />
+		<input type="radio" name="sozdaniessilok" value="ref"/>&lt;ref&gt;<br />
+		<input type="radio" name="sozdaniessilok" value="ref/"/>&lt;ref&nbsp;&frasl;&gt;
+		</p>
+		<p>
+			Какой тег предназначен для создания нумерованного списка:<br />
+			<input type="radio" name="sozdanienumspiska" value="li"/>&lt;li&gt;<br />
+			<input type="radio" name="sozdanienumspiska" value="dl"/>&lt;dl&gt;<br />
+			<input type="radio" name="sozdanienumspiska" value="ol"/>&lt;ol&gt;<br />
+			<input type="radio" name="sozdanienumspiska" value="ul"/>&lt;ul&gt;
+		</p>
+		<p>
+			Какой тег предназначен для передачи служебной информации браузеру:<br />
+			<input type="radio" name="tegbrauzeru" value="info"/>&lt;info&gt;<br />
+			<input type="radio" name="tegbrauzeru" value="info/"/>&lt;info&nbsp;&frasl;&gt;<br />
+			<input type="radio" name="tegbrauzeru" value="meta"/>&lt;meta&gt;<br />
+			<input type="radio" name="tegbrauzeru" value="meta/"/>&lt;meta&nbsp;&frasl;&gt;
+		</p>
+		<p>
+			Какие теги используются при создании таблицы:<br />
+			<input type="checkbox" name="sozdanietablic" value="bodyt"/>&lt;bodyt&gt;<br />
+			<input type="checkbox" name="sozdanietablic" value="td"/>&lt;td&gt;<br />
+			<input type="checkbox" name="sozdanietablic" value="caption"/>&lt;caption&gt;<br />
+			<input type="checkbox" name="sozdanietablic" value="column"/>&lt;column&gt;
+		</p>
+		<p>
+			Какие атрибуты используются при создании форм:<br />
+			<input type="checkbox" name="sozdanieform" value="autocomplete"/>autocomplete<br />
+			<input type="checkbox" name="sozdanieform" value="action"/>action<br />
+			<input type="checkbox" name="sozdanieform" value="charset"/>charset<br />
+			<input type="checkbox" name="sozdanieform" value="validate"/>validate
+		</p>
+		
+		<input type="submit" class="result" value="Результат"/>
+	</form>
+	</div>
+	<footer>
+			<address>
+			<a href="mailto:lubmik2006@gmail.com"><i>Пишите: lubmik2006@gmail.com</i></a>
+			</address>
+		<p>&copy;Хохотва Л.Н. 2016</p>
+	</footer>
+</body>
+</html>
