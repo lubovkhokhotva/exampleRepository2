@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Калькулятор</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="style.css" />
+	
+</head>
+<body>
+	<header>
+	<div class="header">
+		<div class="logo"><a href="index.html"><img src="webLogo.png" alt="Изображение" height="100"/></a></div>
+		<div class="zagolovok">Основы Web-технологий</div>
+		<div class="clear"></div>
+		<nav>
+		<ul class="navi">
+			<li><a href="index.html">Главная</a></li>
+			<li class="list"><a href="technologies.html">Web-технологии</a>
+			<ul class="submenu">
+				<li><a href="html.html">HTML5</a></li>
+				<li><a href="css.html">CSS3</a></li>
+				<li><a href="javascript.html">JavaScript</a></li>
+			</ul>
+			</li>
+		<li><a href="calculator.html">Калькулятор</a></li>
+		<li><a href="test.html">Тест</a></li>
+		</ul>
+	</nav>
+	</div>
+	</header>
+	<div class="main">
+	<form  class="calculator">
+	<table>
+		<tr>
+			<td colspan="5"><input type="text" class="text" name="window"/></td>
+		</tr>
+		<tr>
+			<td><input type="button" class="button" name="num7" value="7"/></td>
+			<td><input type="button" class="button" name="num8" value="8"/></td>
+			<td><input type="button" class="button" name="num9" value="9"/></td>
+			<td><input type="button" class="button" name="del" value="/"/></td>
+			<td><input type="button" class="button" name="reset" value="C"/></td>
+		</tr>
+		<tr>
+			<td><input type="button" class="button" name="num4" value="4"/></td>
+			<td><input type="button" class="button" name="num5" value="5"/></td>
+			<td><input type="button" class="button" name="num6" value="6"/></td>
+			<td><input type="button" class="button" name="multiply" value="*"/></td>
+			<td><input type="button" class="button" name="plusmin" value="&plusmn;"/></td>
+		</tr>
+		<tr>
+			<td><input type="button" class="button" name="num1" value="1"/></td>
+			<td><input type="button" class="button" name="num2" value="2"/></td>
+			<td><input type="button" class="button" name="num3" value="3"/></td>
+			<td><input type="button" class="button" name="minus" value="-"/></td>
+			<td rowspan="2"><input type="button" class="total" name="total" value="="/></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="button" class="zero" name="zero" value="0"/></td>
+			<td><input type="button" class="button" name="point" value="."/></td>
+			<td><input type="button" class="button" name="plus" value="+"/></td>
+		</tr>
+	</table>
+	</form>
+	</div>
+	<script type="javascript" src="javascript.js"></script>
+	<footer>
+			<address>
+			<a href="mailto:lubmik2006@gmail.com"><i>Пишите: lubmik2006@gmail.com</i></a>
+			</address>
+		<p>&copy;Хохотва Л.Н. 2016</p>
+	</footer>
+</body>
+</html>
